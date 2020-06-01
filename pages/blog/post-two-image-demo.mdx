@@ -1,0 +1,16 @@
+import imageUrl from "../../public/static/images/mountains.jpg";
+import BlogMeta from "../../components/BlogMeta";
+export const meta = {
+    title: "",
+    tags: ["tag-1", "tag-2"],
+    layout: "post",
+    publishDate: "2017-12-10",
+    hideProgressBar: true,
+    seoDescription: "This post demonstrates how to use images in blog posts."
+};
+
+<BlogMeta data={props} />
+
+Here is an image 🤓
+
+<img src={imageUrl} className="img-centered" alt="Image alt" />
